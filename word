@@ -1,0 +1,16 @@
+GIT
+Git  is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel.
+Git Log
+The git log command shows a default output for quickly reviewing the commit history. The default output includes the commit ID, commit author, developer email, commit date and commit message string for each commit on the active branch.
+git revert
+The git revert command is a forward-moving undo operation that offers a safe method of undoing changes. Instead of deleting or orphaning commits in the commit history, a revert will create a new commit that inverses the changes specified. Git revert is a safer alternative to git reset in regards to losing work.
+Git branching
+Git branching allows developers to diverge from the production version of code to fix a bug or add a feature. Developers create branches to work with a copy of the code without modifying the existing version.
+Git merginf
+Git merging combines sequences of commits into one unified history of commits. There are two main ways Git will merge: Fast Forward and Three way. Git can automatically merge commits unless there are changes that conflict in both commit sequences.
+Git pull
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.
+Git push
+The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+SSh
+The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Its most notable applications are remote login and command-line execution.
