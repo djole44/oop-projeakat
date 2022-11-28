@@ -1,16 +1,17 @@
 GIT
-Git  is a distributed version control system: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Git was originally authored by Linus Torvalds in 2005 for development of the Linux kernel.
+Git je distribuirani sistem kontrole verzija: praćenje promena u bilo kom skupu datoteka, koji se obično koristi za koordinaciju rada između programera koji zajedno razvijaju izvorni kod tokom razvoja softvera. Njegovi ciljevi uključuju brzinu, integritet podataka i podršku za distribuirane, nelinearne tokove posla. Git je prvobitno napisao Linus Torvalds 2005. za razvoj Linuks kernela.
 Git Log
-The git log command shows a default output for quickly reviewing the commit history. The default output includes the commit ID, commit author, developer email, commit date and commit message string for each commit on the active branch.
+The git log 
+Komanda git log prikazuje podrazumevani izlaz za brzo pregledanje istorije urezivanja. Podrazumevani izlaz uključuje ID urezivanja, autora urezivanja, e-poštu programera, datum urezivanja i string poruke urezivanja za svako urezivanje na aktivnoj grani.
 git revert
-The git revert command is a forward-moving undo operation that offers a safe method of undoing changes. Instead of deleting or orphaning commits in the commit history, a revert will create a new commit that inverses the changes specified. Git revert is a safer alternative to git reset in regards to losing work.
+Komanda git revert je operacija poništavanja koja se pomera unapred koja nudi siguran metod poništavanja promena. Umesto brisanja ili ostavljanja urezivanja u istoriji urezivanja, vraćanje će kreirati novo urezivanje koje inverzira navedene promene. Git revert je sigurnija alternativa git resetovanju u pogledu gubitka posla.
 Git branching
-Git branching allows developers to diverge from the production version of code to fix a bug or add a feature. Developers create branches to work with a copy of the code without modifying the existing version.
+Git branching  omogućava programerima da odstupe od proizvodne verzije koda kako bi popravili grešku ili dodali funkciju. Programeri kreiraju grane za rad sa kopijom koda bez modifikacije postojeće verzije.
 Git merginf
-Git merging combines sequences of commits into one unified history of commits. There are two main ways Git will merge: Fast Forward and Three way. Git can automatically merge commits unless there are changes that conflict in both commit sequences.
+Git merging kombinuje nizove urezivanja u jednu jedinstvenu istoriju urezivanja. Postoje dva glavna načina na koja će se Git spojiti: Fast Forvard i Three vai. Git može automatski da objedini urezivanje osim ako nema promena koje su u sukobu u oba niza urezivanja.
 Git pull
-The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.
+Komanda git pull se koristi za preuzimanje i preuzimanje sadržaja iz udaljenog spremišta i trenutno ažuriranje lokalnog spremišta kako bi odgovarao tom sadržaju. Spajanje udaljenih uzvodnih promena u vaše lokalno spremište je uobičajen zadatak u tokovima rada za saradnju zasnovanom na Gitu.
 Git push
-The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+Komanda git push se koristi za otpremanje sadržaja lokalnog spremišta u udaljeno spremište. Guranje je način na koji prenosite urezivanje iz vašeg lokalnog spremišta u udaljeni repo. To je pandan git fetch , ali dok dohvaćanje uvoza obavezuje lokalne ogranke, gura izvoz obaveza na udaljene grane.
 SSh
-The Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network.[1] Its most notable applications are remote login and command-line execution.
+Secure Shell Protocol (SSH) je kriptografski mrežni protokol za bezbedno funkcionisanje mrežnih usluga preko nezaštićene mreže.[1] Njegove najistaknutije aplikacije su daljinsko prijavljivanje i izvršavanje komandne linije.
